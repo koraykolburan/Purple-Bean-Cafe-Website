@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+.covering {
+  background-color: #966fd6;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+.nav-link {
+  color: #1352ab;
+  font-weight: bold;
+  font-family: "Philosopher", sans-serif;
+  font-size: large;
+}
+.navbar-brand {
+  color: #001440;
+  font-weight: bolder;
+  font-size: x-large;
+}
+
+.dropdown-menu {
+  background-color: #b7a5d9;
+  font-weight: bolder;
+  font-size: x-large;
+  font-family: "Righteous", cursive;
+  letter-spacing: 3px;
+}
+
+.nav-link:hover {
+  color: violet;
+}
+.navbar-brand:hover {
+  color: violet;
+}
+
+/*Responsive Options */
+@media (max-width: 768px) {
+  .covering {
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+  }
+  .nav-item {
+    margin-top: 15px;
+    transition: all 0.9s ease;
+    text-align: center;
+  }
+  .nav-link:hover {
+    color: violet;
+  }
+  .dropdown-menu:hover {
+    color: violet;
+    font-family: "Philosopher", sans-serif;
+    font-weight: bolder;
+  }
+  .nav-item:hover {
+    padding-left: 40px;
+  }
+  .navbar-brand:hover {
+    color: violet;
+  }
+  .nav-link {
+    text-align: center;
+  }
+  .content1 {
+    text-align: center;
+  }
+  .who1 {
+    margin: 0%;
+    padding: 0%;
+    font-size: small;
+    text-align: justify;
+  }
+  .secondhandbook {
+    height: 100px;
+    width: 100px;
+  }
+  .badge {
+    font-size: 10px;
+    transition: all 0.9s ease;
+    font-family: "Philosopher", sans-serif;
+  }
+}
+/*Responsive Options ends */
+
+.coffee-pot {
+  height: 50px;
+  width: 50px;
+}
+.coffee-toggle {
+  height: 50px;
+  width: 50px;
+}
+.content1 {
+  border-radius: 5%;
+  height: 330px;
+  width: 500px;
+  margin-bottom: 30px;
+}
+
+.content2 {
+  border-radius: 5%;
+  height: 332px;
+  width: 500px;
+}
+
+.content3 {
+  border-radius: 5%;
+  height: 330px;
+  width: 500px;
+}
+
+.content4 {
+  border-radius: 5%;
+  height: 330px;
+  width: 500px;
+}
+.tinycafe {
+  border-radius: 3%;
+}
+
+.signup {
+  height: 25px;
+  width: 25px;
+}
+.login {
+  height: 25px;
+  width: 25px;
+}
+.veganlogo {
+  height: 150px;
+  width: 150px;
+}
+
+.welcome {
+  font-size: xx-large;
+  font-family: "Philosopher", sans-serif;
+  font-weight: bolder;
+}
+
+.hei {
+  background-color: #3c2252;
+}
+.hei2 {
+  background-color: #112d54;
+}
+
+.contct {
+  border-radius: 5%;
+}
+
+.logos {
+  height: 50px;
+  width: 50px;
+  margin: 5px;
+  padding: 5px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+.back {
+  background-color: #98b8c2;
+}
+
+.footer-1 {
+  font-size: 25px;
+  transition: all 0.9s ease;
+  font-family: "Philosopher", sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer-1:hover {
+  transition: all 0.9s ease;
+  color: red;
+}
