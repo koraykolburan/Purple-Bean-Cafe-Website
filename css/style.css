@@ -23,6 +23,7 @@
   font-size: x-large;
   font-family: "Righteous", cursive;
   letter-spacing: 3px;
+  text-align: center !important;
 }
 
 .nav-link:hover {
@@ -47,13 +48,10 @@
     color: violet;
   }
   .dropdown-menu:hover {
-    color: violet;
-    font-family: "Philosopher", sans-serif;
     font-weight: bolder;
+    text-align: center !important;
   }
-  .nav-item:hover {
-    padding-left: 40px;
-  }
+
   .navbar-brand:hover {
     color: violet;
   }
@@ -124,6 +122,10 @@
 .login {
   height: 25px;
   width: 25px;
+}
+a {
+  text-decoration: none;
+  color: #112d54;
 }
 .veganlogo {
   height: 150px;
